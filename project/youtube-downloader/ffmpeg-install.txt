@@ -1,0 +1,5 @@
+sudo apt update && sudo apt install ffmpeg x264 x265
+ffmpeg -version
+
+# mp4 -> m4a
+ffmpeg -i input.mp4 -vn -c:a copy output.m4a
